@@ -5,12 +5,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" type="text/css" href="./css/variables.css">
-        <link rel="stylesheet" type="text/css" href="./css/fonts.css">
-        <link rel="stylesheet" type="text/css" href="./css/helpers.css">
-        <link rel="stylesheet" type="text/css" href="./css/components.css">
-        <link rel="stylesheet" type="text/css" href="./css/style.css">
-         <link rel="stylesheet" href="./css/pages/404.css"> 
+        <link rel="stylesheet" type="text/css" href="../css/variables.css">
+        <link rel="stylesheet" type="text/css" href="../css/fonts.css">
+        <link rel="stylesheet" type="text/css" href="../css/helpers.css">
+        <link rel="stylesheet" type="text/css" href="../css/components.css">
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        
             
         
         
@@ -29,13 +29,13 @@
 
             
         
-        <title>404 - Page not found</title>
+        <title> screenshots </title>
 
-        <script src="./js/app.js" defer></script>
+        <script src="../js/app.js" defer></script>
     </head>
 
-    <body onload="applyTheme()"><header>
-	<a href="./" title="Home" class="logo">
+    <body onload="applyTheme()"> <header>
+	<a href="../" title="Home" class="logo">
 		<svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -112,19 +112,19 @@
 		
 		
 		
-		<a href="./quickstart">quickstart</a>
+		<a href="../quickstart">quickstart</a>
 		
 		
-		<a href="./config">config</a>
+		<a href="../config">config</a>
 		
 		
-		<a href="./keybindings">keybinds</a>
+		<a href="../keybindings">keybinds</a>
 		
 		
-		<a href="./screenshots">screenshots</a>
+		<a href="../screenshots">screenshots</a>
 		
 		
-		<a href="./changelog">changelog</a>
+		<a href="../changelog">changelog</a>
 		
 	</nav>
 	<nav class="nav-dekstop nav-extra">
@@ -144,19 +144,19 @@
 		
 		
 		
-		<a href="./quickstart" class="btn btn-small btn-light">quickstart</a>
+		<a href="../quickstart" class="btn btn-small btn-light">quickstart</a>
 		
 		
-		<a href="./config" class="btn btn-small btn-light">config</a>
+		<a href="../config" class="btn btn-small btn-light">config</a>
 		
 		
-		<a href="./keybindings" class="btn btn-small btn-light">keybinds</a>
+		<a href="../keybindings" class="btn btn-small btn-light">keybinds</a>
 		
 		
-		<a href="./screenshots" class="btn btn-small btn-light">screenshots</a>
+		<a href="../screenshots" class="btn btn-small btn-light">screenshots</a>
 		
 		
-		<a href="./changelog" class="btn btn-small btn-light">changelog</a>
+		<a href="../changelog" class="btn btn-small btn-light">changelog</a>
 		
 		<div class="extra-separator"></div>
 		
@@ -165,21 +165,43 @@
 		<a href="https://github.com/workspacer/workspacer/issues/new" class="btn btn-small">submit an issue</a>
 		
 	</nav>
-</header>
+</header> 
         <main>
-	<div class="error-404 window">
+    <section id="hero" class="window">
+			<div class="window-decorations">
+	<div class="decorator-circle"></div>
+	<div class="decorator-circle"></div>
+	<div class="decorator-circle"></div>
+</div>
+      <h1> screenshots </h1>
+      <p class="hero-lead">
+				shots of screens
+      </p>
+    </section> 
+		
+    <div class="content window">
+			
 		<div class="window-decorations">
 	<div class="decorator-circle"></div>
 	<div class="decorator-circle"></div>
 	<div class="decorator-circle"></div>
 </div>
-		<h1>404</h1>
-		<h2>Page not found.</h2>
-		<div class="action-buttons">
-			<a href="./" class="btn primary">Home Page</a>
-			<a href="https://github.com/workspacer/workspacer/issues/new" class="btn btn-primary">Report an issue</a>
-		</div>
-	</div>
+
+    <h5 id="below-are-some-examples-of-common-interactions-in-workspacer-using-the-default-keybindings">below are some examples of common interactions in workspacer, using the default keybindings</h5>
+<h1 id="moving-focus">moving focus</h1>
+<p>you can use <code>alt-j</code> and <code>alt-k</code> to rotate the focused window</p>
+<p><img src="../images/moving-focus.gif" alt="moving-focus" title="moving focus"></p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<h1 id="moving-windows-in-a-workspace">moving windows in a workspace</h1>
+<p>you can use <code>alt-shift-j</code> and <code>alt-shift-k</code> to rotate the window order</p>
+<p><img src="../images/shifting-windows.gif" alt="shifting-windows" title="shifting windows"></p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<h1 id="moving-windows-between-workspaces">moving windows between workspaces</h1>
+<p>you can use <code>alt-{1..9}</code> to switch to a workspace, and <code>alt-shift-{1..9}</code> to move a window to a workspace</p>
+<p><img src="../images/moving-windows.gif" alt="moving-windows" title="moving windows"></p>
+
+    
+    </div>
 
         </main><footer>
 	<p>&copy; Licence MIT.</p>
